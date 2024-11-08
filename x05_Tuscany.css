@@ -1,0 +1,35 @@
+article{	
+    text-align: center;
+  }		
+  
+  ul{
+      display: inline-block;
+  }
+  li{
+
+      text-align: left;
+  }
+  
+ol{
+    display: inline-block;
+}
+
+.popup{
+    width: 500px;
+    height: 700px;
+    position:absolute;
+    top: 50px;
+    right: 375px;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: white;
+    overflow: auto;
+    display: none;
+
+}
+
+.specials{
+    color: rgb(63, 150, 179);
+    font-weight: bold;
+}
+
