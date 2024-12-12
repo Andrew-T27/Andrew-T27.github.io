@@ -3,6 +3,7 @@
 <head>
     <title>A Taste of Tuscany</title>
     <link type="text/css" rel="stylesheet" href="x05_Tuscany.css" />
+    <meta charset="utf-8" />
     <script type="text/javascript">
 
         function displayGONE(){
@@ -14,42 +15,47 @@
         } 
     
         </script>
-    
 </head>
 
+
 <article>
-    <h2 style="color: white;">a</h2>
-    <p style="font-size: xx-large;"><b>A Taste of Tuscany</b><br/>
-    <span style="font-size: x-large;"> Italian Restaurant<br/></span></p>
-    <p>233 Arezzo Avenue<br/>
-    Sherwood Park<br/></p>
-    <a href="https://www.istockphoto.com/photos/italian-restaurant-interior"><img src="https://media.istockphoto.com/id/183410583/photo/luxury-restaurant.jpg?s=612x612&w=0&k=20&c=lHSaQxVRH6sWtPYYhRtezv_yg6_fZ7kOiVnoZ-Sq4T4=" alt = "Image Error" width="260" height="160"/></a><br/>
-    <ul>
-    <li>Fine Italian Dining</li>
-    <li><span class="specials" onclick="displayOPEN()" title="Open Todays Special">Daily Special</span></li>
-    <li>Licensed</li>
-    <li>Banquet Room</li>
-    <li>Open Daily Until 11pm</li>
-    <li>Eat In, Take Out, Delivery</li>
-    <li>Call 780-555-1234</li>
+        <h2 class="title1">A Taste of Tuscany</h2>
+        <span class ="title2"> Italian Restaurant</span><br/>
+    
+        <p>233 Arezzo Avenue<br/>
+        Sherwood Park<br/>
+        </p>
+    
+    <a href="https://www.istockphoto.com/photos/italian-restaurant-interior"><img src="https://media.istockphoto.com/id/183410583/photo/luxury-restaurant.jpg?s=612x612&w=0&k=20&c=lHSaQxVRH6sWtPYYhRtezv_yg6_fZ7kOiVnoZ-Sq4T4=" alt = "Image Error" width="260" height="160"/></a>
+    
+    <br/>
+    <ul class="listLeft">
+        <li>Fine Italian Dining</li>
+        <li><span class="specials" onclick="displayOPEN()" title="Open Todays Special">Daily Special</span></li>
+        <li>Licensed</li>
+        <li>Banquet Room</li>
+        <li>Open Daily Until 11pm</li>
+        <li>Eat In, Take Out, Delivery</li>
+        <li>Call 780-555-1234</li>
     </ul>
+    
 </article>
 
-<article id="invisible" class="popup">
-    <h1 style="font-size: xx-large;"><b><i>Today's Special</i></b><br/></h1>
-    <p style="font-size: x-large;"><i>Valigette</i>(Beef Rolls)<br/>
-    $12.95<br/></p>
-    <a href="https://live.staticflickr.com/5097/5404431778_a6b708a4d2_b.jpg"><img src="https://live.staticflickr.com/5097/5404431778_a6b708a4d2_b.jpg" alt = "Image Error" width="320" height="230"/></a><br/>
-    Include any <i>two</i> of:<br/>
-    <ol>
-    <li><i>Pasta e Fagioli</i></li>
-    <li><i>Ravioli Nudi</i></li>
-    <li><i>Fettunta</i></li>
-    <li><i>Crostini con Salsiccia</i></li>
-    <li><i>Ribollita</i></li>
-    </ol>
-    <p><span style="font-size: larger;" onclick="displayGONE()" title="Close Todays Special" class="specials">Home</span></p>
+<article class="popup" id="invisible">
+    <h2 class = title1><i>Today's Special</i></h2><br/>
+    <span class="title2"><i>Valigette</i>(Beef Rolls)<br/>
+    $12.95<br/><br/></span>
+    <a href="https://live.staticflickr.com/5097/5404431778_a6b708a4d2_b.jpg"><img src="https://live.staticflickr.com/5097/5404431778_a6b708a4d2_b.jpg" alt = "Image Error" width="320" height="230"/></a>
+    <br/>
+    <p>Include any <i>two</i> of:<p>
+        <ol class="listingCloser">
+          <li><i>Pasta e Fagioli</i></li>
+          <li><i>Ravioli Nudi</i></li>
+          <li><i>Fettunta</i></li>
+          <li><i>Crostini con Salsiccia</i></li>
+          <li><i>Ribollita</i></li>
+        </ol>
+        <p><span style="font-size: larger;" onclick="displayGONE()" title="Close Todays Special" class="specials">Home</span></p>
 </article>
-
 
 </html>
