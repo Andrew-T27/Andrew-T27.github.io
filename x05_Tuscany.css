@@ -1,0 +1,57 @@
+
+article{	
+  text-align: center;	
+}		
+
+.popup{
+  width: 500px;
+  height: 700px;
+  position:absolute;
+  top: 50px;
+  right: 375px;
+  border: 2px solid black;
+  display: inline-block;
+  background-color: white;
+  overflow: auto;
+  display:none;
+}
+
+ul{
+    display: inline-block;
+    text-align: left;
+}
+
+.listLeft{
+display: inline-block;
+text-align: left;
+margin-right: 90px;
+}
+
+ol{
+  display: inline-block;
+  text-align: left;
+}
+.title1{
+font-size: xx-large;
+font-weight:bold;
+}
+.title2{
+font-size: x-large;
+
+}
+
+.link{
+font-size: larger;
+}
+
+.listingCloser{
+display: inline-block;
+text-align: left;
+margin-top: -15px;
+margin-left: 40px;
+}
+
+.specials{
+  color: rgb(63, 150, 179);
+  font-weight: bold;
+}
