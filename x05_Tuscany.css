@@ -1,18 +1,7 @@
-article{	
-    text-align: center;
-  }		
-  
-  ul{
-      display: inline-block;
-  }
-  li{
 
-      text-align: left;
-  }
-  
-ol{
-    display: inline-block;
-}
+article{	
+    text-align: center;	
+  }		
 
 .popup{
     width: 500px;
@@ -24,12 +13,45 @@ ol{
     display: inline-block;
     background-color: white;
     overflow: auto;
-    display: none;
+    display:none;
+}
 
+  ul{
+      display: inline-block;
+      text-align: left;
+  }
+
+.listLeft{
+  display: inline-block;
+  text-align: left;
+  margin-right: 90px;
+}
+
+ol{
+    display: inline-block;
+    text-align: left;
+}
+.title1{
+  font-size: xx-large;
+  font-weight:bold;
+}
+.title2{
+  font-size: x-large;
+
+}
+
+.link{
+  font-size: larger;
+}
+
+.listingCloser{
+  display: inline-block;
+  text-align: left;
+  margin-top: -15px;
+  margin-left: 40px;
 }
 
 .specials{
     color: rgb(63, 150, 179);
     font-weight: bold;
 }
-
